@@ -1,0 +1,165 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'nl' Physical Memory: 7969 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Annel/OneDrive/Bureaublad/Block 1/Programming/New pixel game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62755
+Successfully changed project path to: C:/Users/Annel/OneDrive/Bureaublad/Block 1/Programming/New pixel game
+C:/Users/Annel/OneDrive/Bureaublad/Block 1/Programming/New pixel game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 89.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Annel/OneDrive/Bureaublad/Block 1/Programming/New pixel game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 with Max-Q Design (ID=0x1c91)
+    Vendor:   
+    VRAM:     2996 MB
+    Driver:   27.21.14.6280
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005312 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.596 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 81.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.957 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 2.958200 ms (FindLiveObjects: 0.267800 ms CreateObjectMapping: 0.072800 ms MarkObjects: 2.360800 ms  DeleteObjects: 0.255400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025e4f587c23674256bb898581e82961') in 0.010476 seconds
+  Import took 0.015099 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 49.2 MB.
+System memory in use after: 49.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 4.082000 ms (FindLiveObjects: 0.289900 ms CreateObjectMapping: 0.101500 ms MarkObjects: 3.449300 ms  DeleteObjects: 0.239100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.854316 seconds.
+  path: Assets/New Physic Material.physicMaterial
+  artifactKey: Guid(0355f50a74357a242bc50173ff1ee4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Physic Material.physicMaterial using Guid(0355f50a74357a242bc50173ff1ee4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ef10a7791b312bc6bc771aafbdcbe0') in 0.070434 seconds
+  Import took 0.077320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.962983 seconds.
+  path: Assets/playerMat.physicsMaterial2D
+  artifactKey: Guid(30efe9d705d8b954e9982e8360931c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerMat.physicsMaterial2D using Guid(30efe9d705d8b954e9982e8360931c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eedc6c152b23f3040ea5fe0650ae4db') in 0.008065 seconds
+  Import took 0.014369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035294 seconds.
+  path: Assets/playerMat.physicsMaterial2D
+  artifactKey: Guid(30efe9d705d8b954e9982e8360931c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerMat.physicsMaterial2D using Guid(30efe9d705d8b954e9982e8360931c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eedc6c152b23f3040ea5fe0650ae4db') in 0.006555 seconds
+  Import took 0.013288 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2257.
+Total: 4.151700 ms (FindLiveObjects: 0.293000 ms CreateObjectMapping: 0.094600 ms MarkObjects: 3.324300 ms  DeleteObjects: 0.437800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002441 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.796 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2261.
+Total: 3.836500 ms (FindLiveObjects: 0.336000 ms CreateObjectMapping: 0.153100 ms MarkObjects: 3.041200 ms  DeleteObjects: 0.303700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.607306 seconds.
+  path: Assets/playerMat.physicsMaterial2D
+  artifactKey: Guid(30efe9d705d8b954e9982e8360931c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerMat.physicsMaterial2D using Guid(30efe9d705d8b954e9982e8360931c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec579672a34582bfb3162806563f77b2') in 0.028525 seconds
+  Import took 0.035774 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
