@@ -18,7 +18,7 @@ private void OnTriggerEnter2D(Collider2D collision)
     void Update()
     {
         Amount.text = Coins.ToString();
-        Debug.Log(Amount.text);
+
 
     }
 }
