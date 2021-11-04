@@ -12,29 +12,35 @@ public class PlayerHealth : MonoBehaviour
     public PlayerMovement movement;
     public Rigidbody2D RB;
     public GameObject YouDied;
+    public GameObject YouWin;
     public SpriteRenderer Mage;
-
-    void Start()
-    {
-    
-    }
 
     void OnTriggerEnter2D(Collider2D SpikeCol)
     {
 
-        if (SpikeCol.tag == "Spike") //Write in the string what the tag of your bullet is.
+        if (SpikeCol.tag == "Spike")
         {
-            Health-=1; //Subtracts health from the character.
-            Destroy(SpikeCol.gameObject); //This destroys the colliding object.
+            Health -= 1;
+            Destroy(SpikeCol.gameObject); //Remove the spike after touching it, should also do the same for player
+        }
+        if (SpikeCol.tag == "Crown")
+        {
+            Destroy(SpikeCol.gameObject);
+            YouWin.SetActive(true);
+            RB.velocity = Vector3.zero;
+            controller.enabled = false;
+            movement.enabled = false;
         }
 
         if (Health < 1)
-        {  // if the health of the character is below 1 then destroy the character.
-        controller.enabled = false;
-        movement.enabled = false;
-        RB.velocity = Vector3.zero;
-        YouDied.SetActive(true);
-        Mage.enabled = false;
+        {  // If the health is below 1, (only has 1 health) the player dies
+           // Fix camera bug...
+           // Remove the sprite of the player as well
+            controller.enabled = false;
+            movement.enabled = false;
+            RB.velocity = Vector3.zero;
+            YouDied.SetActive(true);
+            Mage.enabled = false;
         }
     }
 }

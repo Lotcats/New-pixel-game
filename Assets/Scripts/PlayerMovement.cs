@@ -5,8 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour {
    
     public CharacterController2D controller;
-
-    public float RunSpeed = 200f;
+    public float RunSpeed = 500f;   //I think 200 runspeed is decent right now
 
     float HorizontalMove = 0f;
     bool jump = false;
